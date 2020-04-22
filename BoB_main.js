@@ -1,7 +1,7 @@
 let bandNumber = 1
 
 const takeNumber = function (bandName) {
-    console.log(bandNumber +=1, bandName);
+    return bandNumber++ + ". " + bandName;
     /*
         Write your awesome code here. See comments
         below for what should be returned.
